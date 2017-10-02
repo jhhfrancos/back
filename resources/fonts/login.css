@@ -1,0 +1,37 @@
+#equipo{
+	background:#f2f2f2;
+}
+
+#servicios h2{
+	color:white;
+}
+
+.imgslide{
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.item{
+	min-width:inherit;
+	height:500px;
+}
+
+.carousel-caption>h1{
+	color:#4e4e4e;
+	background-color:white;
+}
+
+.carousel-caption>p{
+	background-color:#4e4e4e;
+}
+
+#servicios {
+	color:white;
+	background: #000;
+	text-align:center;
+}
+#noticias{
+  background: #000 url(../images/services/bg_services.png);
+  background-size: cover;
+}

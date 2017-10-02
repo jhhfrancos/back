@@ -1,0 +1,42 @@
+﻿.bordes{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.divInterno{
+    margin-top: 20px;
+}
+.lbPregunta{
+    text-align:center;
+}
+.inner{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 300px;
+}
+.texto{
+    position: absolute;
+    right: 300px;
+    bottom: 250px;
+    height: 600px;
+    z-index: 10;
+    width: 600px;
+    font-size: 12px;
+}
+.opac{
+    opacity: 0.3;
+}
+svg {
+  height: 100%;
+  width: 100%;
+}
+path {
+  fill: white;
+  stroke: black;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+path:hover {
+  fill: aliceblue;
+  stroke: lightskyblue;
+}

@@ -1,0 +1,65 @@
+#main-content{
+	margin-right:180px;
+}
+
+.list-anuncios{
+	height:125px;
+	overflow-y:scroll;
+}
+
+.info-box .count{
+	font-size:30px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a.social-icon:link {
+	color: #ffc107;
+}
+
+a.social-icon:visited {
+	color: #ff9800;
+}
+
+a.social-icon:hover {
+	color: #ff9800;	
+}
+
+a.social-icon:active {
+	color: #ff9800;
+}
+
+.redes_sociales {
+    position: fixed;
+    width:5%;
+    top: 30%;
+    right: 1%;
+    z-index:1000;
+    background-repeat:no-repeat;
+}
+
+.redes_sociales {
+	float:right;
+	filter:alpha(opacity=80);
+	-khtml-opacity:.8;
+	opacity:.8;
+	display:block;
+	background-repeat:no-repeat;
+	height:60px;
+	-webkit-transition:all ease .2s;
+	-moz-transition:all ease .2s;
+	-o-transition:all ease .2s;
+	-ms-transition:all ease .2s;
+	transition:all ease .2s;
+}
